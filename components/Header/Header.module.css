@@ -1,0 +1,31 @@
+.container {
+    width: 100vw;
+    background-color: #000000;
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.logo {
+    font-family: 'Play', sans-serif;
+    color: #FAFBFF;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.nav a {
+    color: #F9FAFB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
