@@ -2,7 +2,6 @@ import { type AppType } from "next/app";
 import { api } from "npm/utils/api";
 import "npm/styles/globals.css";
 import { ThemeProvider } from "styled-components";
-
 import GlobalStyles from "npm/styles/globals";
 import theme from "../styles/theme/theme";
 import Head from "next/head";

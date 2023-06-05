@@ -1,18 +1,16 @@
 import { type NextPage } from "next";
-import Head from "next/head";
-import Link from "next/link";
 import Header from "npm/components/Header";
+import Home from 'npm/components/Sections/Home'
+import Portifolio from "npm/components/Sections/Portifolio";
 
-import { api } from "npm/utils/api";
-
-const Home: NextPage = () => {
-  const hello = api.example.hello.useQuery({ text: "from tRPC" });
-
+const FirstPage: NextPage = () => {
   return (
     <>
       <Header />
+      <Home />
+      <Portifolio />
     </>
   );
 };
 
-export default Home;
+export default FirstPage;
