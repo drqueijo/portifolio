@@ -1,28 +1,50 @@
-# Create T3 App
+# 🚀 Portfólio
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Portfólio desenvolvido com NextJS e TypeScript.
 
-## What's next? How do I make an app with this?
+## ℹ️ Sobre o projeto
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Este projeto consiste em mostrar meus recentes e futuros trabalhos realizados ao decorrer da minha carreira.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## ✨ Demonstração
 
+Você pode conferir o resultado final em: https://drqueijo.vercel.app/
+
+## 🎯 Objetivo do projeto
+
+Foi realizado este projeto com o intuito de aplicar os conhecimentos adquiridos com NextJS. Foi reforçado, também, os conhecimentos com TypeScript.
+
+## 📝 Tecnologias
+
+- [React.js](https://pt-br.reactjs.org)
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [TypeScript](https://www.typescriptlang.org/)
+- [styled-components](https://styled-components.com/)
+- [trpc](https://trpc.io/)
+- [prisma](https://www.prisma.io/)
+- [next-pwa](https://www.npmjs.com/package/next-pwa)
+- [Plop.js](https://plopjs.com/)
+- [Husky](https://www.npmjs.com/package/husky)
 
-## Learn More
+## ⚙️ Instalação
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Para que este rode em sua máquina, siga os passos abaixo:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+```bash
+# Clone o repositório em alguma pasta em sua máquina
+$ git clone https://github.com/drqueijo/portifolio
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+# Entre no repositório
+$ cd portfolio
 
-## How do I deploy this?
+Instale as dependências digitando no termimal:
+$ npm install
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Rode a aplicação no modo de desenvolvimento.
+$ npm run dev
+
+Abra http://localhost:3000 no seu navegador para visualizar o projeto
+```
+
+## Licença
+Copyright © 2021 Matheus Silverio.
